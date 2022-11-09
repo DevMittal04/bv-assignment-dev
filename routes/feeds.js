@@ -3,7 +3,6 @@ const Post = require('../models/feeds')
 
 const app = express()
 
-
 // Get all posts
 app.get("/", async (req, res) => {
     try {

@@ -11,7 +11,6 @@ const userSchema = new mongoose.Schema({
     },
     profile_url: {
         type: String,
-        required: true
     },
     address: {
         type: String,
